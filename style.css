@@ -1,0 +1,29 @@
+* {
+    margin: .5rem;
+    color-scheme: dark;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+dialog {
+    background: black;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+dialog input, dialog button {
+    display: block;
+}
+
+div button {
+    padding: .5em;
+}
+
+pre {
+    padding: 1em;
+    width: 97%;
+    overflow-x: scroll;
+}
